@@ -6,7 +6,7 @@ using System.Net;
 namespace Discount.API.Controllers
 {
     [ApiController]
-    [Route("api/vi1/[controller]")]
+    [Route("api/v1/[controller]")]
     public class DiscountController : ControllerBase
     {
         private readonly IDiscountRepository _repository;
